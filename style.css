@@ -1116,6 +1116,8 @@ footer {
 
 .detail-section h2 {
 
+    color: #999;
+
     margin-bottom: 25px;
 
 }
@@ -1124,7 +1126,7 @@ footer {
 
 .detail-section > p:last-child {
 
-    color: #aaa;
+    color: #ffffff;
 
 
 

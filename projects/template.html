@@ -10,7 +10,7 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Transmission Received</title>
+    <title>Title</title>
 
     <link rel="stylesheet" href="../style.css">
 
@@ -40,6 +40,7 @@
                 About
             </a>
 
+
         </div>
 
     </nav>
@@ -59,21 +60,138 @@
         </p>
 
         <h1>
-            Transmission Received
+            Title
         </h1>
 
         <p class="project-detail-subtitle">
-            A 3D horror puzzle game where players must scale a radio tower to uncipher a mysterious transmission.
+            One sentence here
         </p>
 
+    <!-- =========================
+        PROJECT Media Gallery
+    ========================== -->
+<section class="project-gallery" aria-label="Project media gallery">
 
-        <div class="project-detail-image">
+    <div class="gallery-main">
 
-            <div class="placeholder">
-                PROJECT HERO IMAGE / VIDEO
-            </div>
+        <!-- Previous slide -->
+        <button class="gallery-arrow gallery-prev"
+                type="button"
+                aria-label="Previous slide">
+            &#10094;
+        </button>
+
+        <!-- SLIDE 1: IMAGE -->
+        <div class="gallery-slide active"
+             data-type="image">
+
+            <img
+                src="images/tje-demo/screenshot-1.jpg"
+                alt="TJE Demo gameplay screenshot"
+                class="gallery-image"
+            >
 
         </div>
+
+        <!-- SLIDE 2: IMAGE -->
+        <div class="gallery-slide"
+             data-type="image">
+
+            <img
+                src="images/tje-demo/screenshot-2.jpg"
+                alt="TJE Demo additional gameplay screenshot"
+                class="gallery-image"
+            >
+
+        </div>
+
+        <!-- SLIDE 3: YOUTUBE VIDEO -->
+        <div class="gallery-slide"
+             data-type="video"
+             data-video-id="YOUR_YOUTUBE_VIDEO_ID">
+
+            <button class="video-preview" type="button"
+                    aria-label="Play TJE Demo video">
+
+                <img
+                    src="https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/hqdefault.jpg"
+                    alt="TJE Demo video preview"
+                >
+
+                <span class="video-play-button">&#9654;</span>
+
+            </button>
+
+        </div>
+
+        <!-- SLIDE 4: IMAGE -->
+        <div class="gallery-slide"
+             data-type="image">
+
+            <img
+                src="images/tje-demo/screenshot-3.jpg"
+                alt="TJE Demo final screenshot"
+                class="gallery-image"
+            >
+
+        </div>
+
+        <!-- Next slide -->
+        <button class="gallery-arrow gallery-next"
+                type="button"
+                aria-label="Next slide">
+            &#10095;
+        </button>
+
+        <!-- Slide counter -->
+        <span class="gallery-counter" aria-live="polite">
+            1 / 4
+        </span>
+
+    </div>
+
+
+    <!-- THUMBNAILS -->
+    <div class="gallery-thumbnails"
+         aria-label="Choose a gallery slide">
+
+        <button class="gallery-thumb active"
+                type="button"
+                aria-label="View screenshot 1">
+            <img src="images/tje-demo/screenshot-1.jpg"
+                 alt="">
+        </button>
+
+        <button class="gallery-thumb"
+                type="button"
+                aria-label="View screenshot 2">
+            <img src="images/tje-demo/screenshot-2.jpg"
+                 alt="">
+        </button>
+
+        <button class="gallery-thumb video-thumb"
+                type="button"
+                aria-label="View video slide">
+
+            <img
+                src="https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/mqdefault.jpg"
+                alt=""
+            >
+
+            <span>&#9654; VIDEO</span>
+
+        </button>
+
+        <button class="gallery-thumb"
+                type="button"
+                aria-label="View screenshot 3">
+            <img src="images/tje-demo/screenshot-3.jpg"
+                 alt="">
+        </button>
+
+    </div>
+
+</section>
 
         <!-- =========================
              Core Features
@@ -82,77 +200,11 @@
         <div class="detail-section">
 
             <h2>
-                Core Features
+                Features
             </h2>
 
             <p>
                 The primary gameplay mechanics and systems.
-            </p>
-
-        </div>
-
-        <!-- =========================
-             DEVELOPMENT
-        ========================== -->
-
-        <div class="detail-section">
-
-            <h2>
-                Key Implementation(s)
-            </h2>
-
-            <p>
-                The most note worthy technical or design challenges you faced and how you solved them.
-            </p>
-
-        </div>
-
-        <!-- =========================
-             Technical Details
-        ========================== -->
-
-        <div class="detail-section">
-
-            <h2>
-                Technical Highlight(s)
-            </h2>
-
-            <p>
-                Explain what you ultimately accomplished and
-                what you learned from the project.
-            </p>
-
-        </div>
-
-<!-- =========================
-             Developement Challenge
-        ========================== -->
-
-        <div class="detail-section">
-
-            <h2>
-                Developmental Challenge
-            </h2>
-
-            <p>
-                Explain one system or feature that was particularly difficult to implement and how you solved it.
-            </p>
-
-        </div>
-
-        <!-- =========================
-             Outcome
-        ========================== -->
-
-        <div class="detail-section">
-
-            <h2>
-                Project Outcome
-            </h2>
-
-            <p>
-                Explain what you ultimately accomplished and
-                what you learned from the project.
             </p>
 
         </div>
@@ -199,7 +251,6 @@
     </p>
 
 </footer>
-
+<script src="../gallery.js"></script>
 </body>
-
 </html>
